@@ -62,7 +62,7 @@ export const projects: Project[] = [
   {
     id: 'CourseKingdom',
     title: 'CourseKingdom',
-    category: 'E-commerce',
+    category: 'Learning Managment System',
     year: '2025',
     thumbnail:
       '/img/coureskingdom.png',
@@ -97,17 +97,17 @@ export const projects: Project[] = [
   },
   {
     id: 'pulse-landing',
-    title: 'Pulse',
+    title: 'Studio Hiroshima',
     category: 'Landing Page',
-    year: '2024',
+    year: '2025',
     thumbnail:
       'https://images.pexels.com/photos/6308163/pexels-photo-6308163.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     heroImage:
       'https://images.pexels.com/photos/6308163/pexels-photo-6308163.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
     description:
-      'A high-impact landing page for a tech startup, designed to communicate value quickly and drive sign-ups.',
+      'A high-impact landing page for Paris based studio specializing in production, publishing and artists representation.',
     objective:
-      'To maximize email capture from paid traffic by communicating the product value proposition within seconds.',
+      'To build  a simple landing page for studio hiroshima to just have an online digital presence as requested by the client',
     role: ['UI Design', 'Frontend Development', 'Creative Direction'],
     duration: '2 Weeks',
     technologies: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion'],
@@ -122,9 +122,9 @@ export const projects: Project[] = [
       'A single-page narrative structure that builds from problem to solution to action. Bold visual moments create emotional engagement before the CTA.',
     developmentApproach:
       'Static generation for instant load times. Minimal JavaScript for above-the-fold content. Framer Motion used selectively for hero and feature sections only.',
-    hosting: 'Vercel',
+    hosting: 'OVHCloud',
     status: 'Live',
-    liveUrl: null,
+    liveUrl: 'https://studiohiroshima.fr/',
     sourceUrl: null,
     gallery: [
       'https://images.pexels.com/photos/6308163/pexels-photo-6308163.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
@@ -137,7 +137,7 @@ export const projects: Project[] = [
     category: 'Interactive Web App',
     year: '2025',
     thumbnail:
-      'https://images.pexels.com/photos/30530409/pexels-photo-30530409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '',
     heroImage:
       'https://images.pexels.com/photos/30530409/pexels-photo-30530409.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
     description:
@@ -168,12 +168,12 @@ export const projects: Project[] = [
     size: 'large',
   },
   {
-    id: 'monolith-portfolio',
-    title: 'Monolith Portfolio',
-    category: 'Portfolio',
-    year: '2024',
+    id: 'anpa',
+    title: 'ANPA',
+    category: 'Health Website',
+    year: '2025',
     thumbnail:
-      'https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1767430386/ANPA-1_mhoclc.png',
     heroImage:
       'https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
     description:
@@ -204,12 +204,12 @@ export const projects: Project[] = [
     size: 'small',
   },
   {
-    id: 'cipher-web',
-    title: 'Cipher',
+    id: 'ihcp',
+    title: 'IHCP',
     category: 'Web Development',
     year: '2025',
     thumbnail:
-      'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1767431022/Screenshot_2026-01-03_100153_gus5uz.png',
     heroImage:
       'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
     description:
@@ -232,7 +232,155 @@ export const projects: Project[] = [
       'Static generation with incremental builds. Search powered by client-side indexing. Code blocks with copy-to-clipboard and syntax highlighting.',
     hosting: 'Vercel',
     status: 'Live',
-    liveUrl: null,
+    liveUrl: 'https://ihcp.vercel.app/',
+    sourceUrl: null,
+    gallery: [
+      'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    ],
+    size: 'small',
+  },
+
+  {
+    id: 'fitpro',
+    title: 'FitPro Fitness',
+    category: 'Gymnastics',
+    year: '2025',
+    thumbnail:
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1767431022/Screenshot_2026-01-03_100153_gus5uz.png',
+    heroImage:
+      'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
+    description:
+      'A developer documentation site with a clean, readable interface, interactive code examples, and a powerful search experience.',
+    objective:
+      'To make technical documentation approachable, searchable, and enjoyable to navigate.',
+    role: ['UI Design', 'UX', 'Frontend Development'],
+    duration: '5 Weeks',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'shadCN'],
+    features: [
+      'Full-text search with keyboard shortcut',
+      'Syntax-highlighted code blocks',
+      'Table of contents navigation',
+      'Dark mode by default',
+      'MDX content support',
+    ],
+    designApproach:
+      'A documentation interface that feels like a well-designed book. Clear typographic hierarchy, generous line height, and a persistent sidebar for navigation.',
+    developmentApproach:
+      'Static generation with incremental builds. Search powered by client-side indexing. Code blocks with copy-to-clipboard and syntax highlighting.',
+    hosting: 'Vercel',
+    status: 'Live',
+    liveUrl: '',
+    sourceUrl: null,
+    gallery: [
+      'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    ],
+    size: 'small',
+  },
+
+  {
+    id: 'reminet',
+    title: 'Reminet',
+    category: 'Landing Page',
+    year: '2025',
+    thumbnail:
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1767431022/Screenshot_2026-01-03_100153_gus5uz.png',
+    heroImage:
+      'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
+    description:
+      'A developer documentation site with a clean, readable interface, interactive code examples, and a powerful search experience.',
+    objective:
+      'To make technical documentation approachable, searchable, and enjoyable to navigate.',
+    role: ['UI Design', 'UX', 'Frontend Development'],
+    duration: '5 Weeks',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'shadCN', 'Chart.js'],
+    features: [
+      'Full-text search with keyboard shortcut',
+      'Syntax-highlighted code blocks',
+      'Table of contents navigation',
+      'Dark mode by default',
+      'MDX content support',
+    ],
+    designApproach:
+      'A documentation interface that feels like a well-designed book. Clear typographic hierarchy, generous line height, and a persistent sidebar for navigation.',
+    developmentApproach:
+      'Static generation with incremental builds. Search powered by client-side indexing. Code blocks with copy-to-clipboard and syntax highlighting.',
+    hosting: 'Vercel',
+    status: 'Live',
+    liveUrl: 'https://ihcp.vercel.app/',
+    sourceUrl: null,
+    gallery: [
+      'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    ],
+    size: 'small',
+  },
+
+  {
+    id: 'trophies',
+    title: 'Trophies School Web Demo',
+    category: 'School Website',
+    year: '2026',
+    thumbnail:
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1790803810/trophies-sch_sr2g5r.png',
+    heroImage:
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1790805255/trophies-about_n6ke1x.png',
+    description:
+      'A developer documentation site with a clean, readable interface, interactive code examples, and a powerful search experience.',
+    objective:
+      'To make technical documentation approachable, searchable, and enjoyable to navigate.',
+    role: ['UI Design', 'UX', 'Frontend Development'],
+    duration: '5 Weeks',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'shadCN'],
+    features: [
+      'Full-text search with keyboard shortcut',
+      'Syntax-highlighted code blocks',
+      'Table of contents navigation',
+      'Dark mode by default',
+      'MDX content support',
+    ],
+    designApproach:
+      'A documentation interface that feels like a well-designed book. Clear typographic hierarchy, generous line height, and a persistent sidebar for navigation.',
+    developmentApproach:
+      'Static generation with incremental builds. Search powered by client-side indexing. Code blocks with copy-to-clipboard and syntax highlighting.',
+    hosting: 'Vercel',
+    status: 'Live',
+    liveUrl: 'https://the-trophies-school.vercel.app/',
+    sourceUrl: null,
+    gallery: [
+      'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    ],
+    size: 'small',
+  },
+
+  {
+    id: '',
+    title: 'IHCP',
+    category: 'Web Development',
+    year: '2025',
+    thumbnail:
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1767431022/Screenshot_2026-01-03_100153_gus5uz.png',
+    heroImage:
+      'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
+    description:
+      'A developer documentation site with a clean, readable interface, interactive code examples, and a powerful search experience.',
+    objective:
+      'To make technical documentation approachable, searchable, and enjoyable to navigate.',
+    role: ['UI Design', 'UX', 'Frontend Development'],
+    duration: '5 Weeks',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'shadCN'],
+    features: [
+      'Full-text search with keyboard shortcut',
+      'Syntax-highlighted code blocks',
+      'Table of contents navigation',
+      'Dark mode by default',
+      'MDX content support',
+    ],
+    designApproach:
+      'A documentation interface that feels like a well-designed book. Clear typographic hierarchy, generous line height, and a persistent sidebar for navigation.',
+    developmentApproach:
+      'Static generation with incremental builds. Search powered by client-side indexing. Code blocks with copy-to-clipboard and syntax highlighting.',
+    hosting: 'Vercel',
+    status: 'Live',
+    liveUrl: 'https://ihcp.vercel.app/',
     sourceUrl: null,
     gallery: [
       'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
