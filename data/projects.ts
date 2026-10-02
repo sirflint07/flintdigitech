@@ -132,12 +132,12 @@ export const projects: Project[] = [
     size: 'medium',
   },
   {
-    id: 'vertex-interactive',
-    title: 'Vertex Interactive',
+    id: 'icast-school',
+    title: 'Icast Schools Proposed Site',
     category: 'Interactive Web App',
     year: '2025',
     thumbnail:
-      '',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1790803814/icast-home_zvqruc.png',
     heroImage:
       'https://images.pexels.com/photos/30530409/pexels-photo-30530409.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
     description:
@@ -160,7 +160,7 @@ export const projects: Project[] = [
       'Component-driven architecture with shadCN/ui for consistency. Real-time updates handled through efficient state management. Type-safe throughout.',
     hosting: 'Vercel',
     status: 'Live',
-    liveUrl: null,
+    liveUrl: 'https://icast-schools.vercel.app/',
     sourceUrl: null,
     gallery: [
       'https://images.pexels.com/photos/30530409/pexels-photo-30530409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',

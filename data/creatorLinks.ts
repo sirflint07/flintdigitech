@@ -76,4 +76,4 @@ export const creatorLinks: CreatorLink[] = [
 
 export const contactEmail: string | null = null;
 
-export const introVideoUrl: string | null = '';
+export const introVideoUrl: string | null = 'https://youtu.be/uQtgF0IX4vM';
