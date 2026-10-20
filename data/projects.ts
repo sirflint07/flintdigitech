@@ -137,7 +137,7 @@ export const projects: Project[] = [
     category: 'Interactive Web App',
     year: '2025',
     thumbnail:
-      'https://res.cloudinary.com/djpdesqrs/image/upload/v1790803814/icast-home_zvqruc.png',
+      '/img/icast-thumbnail.png',
     heroImage:
       'https://images.pexels.com/photos/30530409/pexels-photo-30530409.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
     description:
@@ -170,7 +170,7 @@ export const projects: Project[] = [
   {
     id: 'anpa',
     title: 'ANPA',
-    category: 'Health Website',
+    category: 'Healthcare Website',
     year: '2025',
     thumbnail:
       'https://res.cloudinary.com/djpdesqrs/image/upload/v1767430386/ANPA-1_mhoclc.png',
@@ -206,10 +206,10 @@ export const projects: Project[] = [
   {
     id: 'ihcp',
     title: 'IHCP',
-    category: 'Web Development',
+    category: 'Healthcare',
     year: '2025',
     thumbnail:
-      'https://res.cloudinary.com/djpdesqrs/image/upload/v1767431022/Screenshot_2026-01-03_100153_gus5uz.png',
+      '/img/ihcp-thumbnail.png',
     heroImage:
       'https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
     description:
