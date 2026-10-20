@@ -19,6 +19,10 @@ import {
   PinterestIcon,
   BehanceIcon,
   WhatsAppIcon,
+  GitHubIcon,
+  YouTubeIcon,
+  InstagramIcon,
+  FacebookIcon
 } from '@/components/icons/SocialIcons';
 import { fadeUp, staggerContainer, viewportConfig } from '@/lib/animations';
 import { creatorLinks, contactEmail } from '@/data/creatorLinks';
@@ -46,10 +50,10 @@ type IconType = React.ComponentType<{ className?: string }>;
 const iconMap: Record<string, IconType> = {
   Email: Mail,
   LinkedIn: Linkedin,
-  GitHub: Github,
-  YouTube: Youtube,
-  Instagram: Instagram,
-  Facebook: Facebook,
+  GitHub: GitHubIcon,
+  YouTube: YouTubeIcon,
+  Instagram: InstagramIcon,
+  Facebook: FacebookIcon,
   TikTok: TikTokIcon,
   X: XIcon,
   Pinterest: PinterestIcon,
@@ -213,7 +217,7 @@ export default function Contact() {
                   return (
                     <a
                       key={link.label}
-                      href={link.url ?? '#'}
+                      href={`${link.url}`}
                       target={link.url ? '_blank' : undefined}
                       rel={link.url ? 'noopener noreferrer' : undefined}
                       className={`group flex items-center gap-3 rounded-xl border border-border/40 bg-card p-3.5 transition-all ${

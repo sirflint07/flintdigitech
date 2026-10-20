@@ -23,12 +23,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'novara-lms',
-    title: 'Novara',
+    id: 'nucafy-lms',
+    title: 'Nucafy',
     category: 'Learning Managment System',
     year: '2026',
     thumbnail:
-      '/img/thumbnail-1.png',
+      '/img/nucafy-thumbnail.png',
     heroImage:
       'https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
     description:
@@ -101,7 +101,7 @@ export const projects: Project[] = [
     category: 'Landing Page',
     year: '2025',
     thumbnail:
-      'https://images.pexels.com/photos/6308163/pexels-photo-6308163.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/img/hiroshima-thumbnail.png',
     heroImage:
       'https://images.pexels.com/photos/6308163/pexels-photo-6308163.jpeg?auto=compress&cs=tinysrgb&h=1080&w=1920',
     description:
