@@ -41,10 +41,8 @@ export default function MeetMe() {
           </motion.p>
         </motion.div>
 
-        {/* Grid Layout: Image/Quote on left, Video on right */}
         <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16 items-center">
           
-          {/* Left Column: Profile & Quote */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -52,9 +50,8 @@ export default function MeetMe() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="relative lg:col-span-5 w-full max-w-md mx-auto lg:max-w-none"
           >
-            {/* Profile Image */}
+
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-border/40 bg-card shadow-xl">
-              {/* REPLACE THE SRC BELOW WITH YOUR ACTUAL IMAGE PATH, e.g., "/profile.jpg" */}
               <img
                 src="/img/profile.png"
                 alt="Profile portrait"
@@ -63,7 +60,6 @@ export default function MeetMe() {
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-60" />
             </div>
 
-            {/* Floating Quote Card */}
             <div className="absolute -bottom-8 -right-4 sm:-right-8 w-[85%] sm:w-[90%] rounded-xl border border-primary/20 bg-background/90 p-5 shadow-2xl backdrop-blur-md">
               <Quote className="mb-2 h-5 w-5 text-primary opacity-50" />
               <p className="font-display text-sm italic leading-relaxed text-foreground">
