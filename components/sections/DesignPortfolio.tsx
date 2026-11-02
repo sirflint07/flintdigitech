@@ -114,7 +114,7 @@ function DesignLightbox({ project, onClose }: { project: DesignProject; onClose:
       >
         <button
           onClick={onClose}
-          className="absolute right-4 top-4 z-10 flex h-10 w-10 items-center justify-center rounded-xl border border-border/60 bg-background/80 text-foreground backdrop-blur-sm transition-colors hover:bg-secondary"
+          className="absolute right-8 top-8 z-10 flex h-10 w-10 items-center justify-center rounded-xl border border-border/60 bg-background/80 text-foreground backdrop-blur-sm transition-colors hover:bg-secondary"
           aria-label="Close lightbox"
         >
           <X className="h-5 w-5" />

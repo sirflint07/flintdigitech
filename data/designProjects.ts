@@ -12,17 +12,17 @@ export interface DesignProject {
 export const designProjects: DesignProject[] = [
   {
     id: 'urban-campaign',
-    title: 'Urban Pulse Campaign',
-    category: 'Creative Campaign',
+    title: 'Aurium Automotive Page',
+    category: 'Figma Landing Page',
     client: null,
     year: '2025',
     image:
-      'https://images.pexels.com/photos/3964758/pexels-photo-3964758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1793595421/Gig-Image-3_qrzvwv.png',
     description:
       'A multi-piece promotional campaign combining bold typography, street-inspired layouts, and a vibrant color system designed for social and print.',
     gallery: [
-      'https://images.pexels.com/photos/3964758/pexels-photo-3964758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-      'https://images.pexels.com/photos/3964576/pexels-photo-3964576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1793595420/Gig-Image-2_rzfq01.png',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1793595422/Gig-Image-4_ewlaid.png',
     ],
   },
   {
@@ -46,11 +46,13 @@ export const designProjects: DesignProject[] = [
     client: null,
     year: '2024',
     image:
-      'https://images.pexels.com/photos/3964580/pexels-photo-3964580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1722508565/Pepsi_Thumbnail_mcov5a.png',
     description:
       'Product advertising visuals combining clean photography with bold graphic overlays for social media campaigns.',
     gallery: [
-      'https://images.pexels.com/photos/3964580/pexels-photo-3964580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1722508563/Redbull_Thumb_x5keqh.png',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1722508562/nivea_thumbnail_osneqe.png',
+      'https://res.cloudinary.com/djpdesqrs/image/upload/v1722508562/Lays_Thumbnail_psdqjl.png'
     ],
   },
   {
